@@ -11,6 +11,6 @@ https://developers.freshdesk.com/v2/docs/quick-start/
 
 `docker run --rm --volumes $PWD:/app stapelpanda_freshworks_cli <COMMAND>`
 
-Creation of app: `docker run --rm --volumes $PWD:/app stapelpanda_freshworks_cli create --template <template>`
+Creation of app: `docker run --rm --volumes $PWD:/app stapelpanda/freshworks_cli create --template <template>`
 
-Running app for development: `docker run --rm -p 10001:10001 --volumes $PWD:/app stapelpanda_freshworks_cli run`
+Running app for development: `docker run --rm -p 10001:10001 --volumes $PWD:/app stapelpanda/freshworks_cli run`
